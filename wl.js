@@ -20,6 +20,11 @@ while(j<=30){
 
 
 
+
+
+
+
+
 let l=1;
 while(l<=180){
     if(l%18==0){
@@ -27,3 +32,13 @@ while(l<=180){
     }
     l++
 }
+
+
+const d= new Date("2022-03-31")
+// document.getElementById("demo")
+console.log(d)
+
+
+
+const f = new Date();
+console.log(f)
