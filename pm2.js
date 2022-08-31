@@ -18,19 +18,19 @@ for(let i=0;i<=6;i++){
 console.log(note)
 
 
-// let note1= -Infinity
-// for(let j=0;j<=6;j++){
-//    if(arr[j]>note1)
-//    note1=arr[j]
-// }
-// console.log(note1)
+let note1= -Infinity
+for(let j=0;j<=6;j++){
+   if(arr[j]>note1)
+   note1=arr[j]
+}
+console.log(note1)
 
-// for( let i=1;i<=10;i++){
-//     let bag = ""
-//      for(let j=1;j<=10;j++){
-//         bag+="6"+" "
-//     }console.log(bag)
-// }
+for( let i=1;i<=10;i++){
+    let bag = ""
+     for(let j=1;j<=10;j++){
+        bag+="6"+" "
+    }console.log(bag)
+}
 
 for (let i=1;i<=5;i++){
     let bag=""
