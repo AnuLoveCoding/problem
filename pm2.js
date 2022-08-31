@@ -25,14 +25,25 @@ console.log(note)
 // }
 // console.log(note1)
 
-for( let i=1;i<=10;i++){
-    let bag = ""
-     for(let j=1;j<=10;j++){
-        bag+="6"+" "
+// for( let i=1;i<=10;i++){
+//     let bag = ""
+//      for(let j=1;j<=10;j++){
+//         bag+="6"+" "
+//     }console.log(bag)
+// }
+
+for (let i=1;i<=5;i++){
+    let bag=""
+    for (let j=1;j<=5;j++){
+      bag+=[j,i]
     }console.log(bag)
 }
 
 
+
+
+const date = new Date();
+console.log(date[Symbol.toPrimitive]('string'));
 
 
 
