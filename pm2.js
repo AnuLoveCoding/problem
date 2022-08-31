@@ -46,8 +46,8 @@ console.log("*****************************************************************")
 // console.log(date[Symbol.toPrimitive]('string'));
 
 
-const date= new Date();
-console.log(date[Symbol.toPrimitive]('string'))
+const aaj= new Date();
+console.log(aaj[Symbol.toPrimitive]('string'))
 
 
 
