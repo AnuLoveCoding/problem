@@ -17,3 +17,13 @@ while(j<=30){
     }
     j++
 }
+
+
+
+let l=1;
+while(l<=180){
+    if(l%18==0){
+        console.log(l)
+    }
+    l++
+}
