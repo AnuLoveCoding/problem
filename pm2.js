@@ -39,13 +39,19 @@ for (let i=1;i<=5;i++){
     }console.log(bag)
 }
 
+console.log("*****************************************************************")
+
+
+// const date = new Date();
+// console.log(date[Symbol.toPrimitive]('string'));
+
+
+const date= new Date();
+console.log(date[Symbol.toPrimitive]('string'))
 
 
 
-const date = new Date();
-console.log(date[Symbol.toPrimitive]('string'));
 
-
-
+console.log("**************************************************************************************")
 
 
